@@ -1,0 +1,7 @@
+.page__container {
+  min-width: 320px;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto; /* выравниваем по центру */
+}
+
