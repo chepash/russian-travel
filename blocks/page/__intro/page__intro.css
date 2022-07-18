@@ -1,0 +1,22 @@
+/* микс для отступов БЭМ-блока intro */
+.page__intro {
+  margin-top: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .page__intro {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page__intro {
+    margin-top: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page__intro {
+
+  }
+}

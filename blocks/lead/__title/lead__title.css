@@ -5,9 +5,6 @@
   /* Сохраняем переносы строк как в index.html */
   white-space: pre-line;
 
-  font-family: 'Inter';
-  color: #FFF;
-
   font-weight: 900;
   font-size: calc( 100vw / 8 ); /* 40px при ширине 320 и будет постепенно расти */
   font-size: min(40px,);
