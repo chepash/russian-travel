@@ -7,8 +7,7 @@
 
   font-weight: 900;
   font-size: calc( 100vw / 8 ); /* 40px при ширине 320 и будет постепенно расти */
-  font-size: min(40px,);
-  line-height: calc( 100vw / 8 + 4px);  /* 44px при ширине 320 и будет постепенно расти */
+  line-height: 1.1;
   text-align: center;
 }
 
@@ -17,7 +16,7 @@
     margin-bottom: 32px;
 
     font-size: 96px;
-    line-height: 100px;
+    line-height: 1.04;
   }
 }
 
