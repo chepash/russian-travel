@@ -1,27 +1,6 @@
 .lead {
   box-sizing: border-box;
   margin: 0;
-  padding: 0 auto 0;
   display: grid;
-  grid-template-columns: minmax(300px, 100%);;
-  grid-template-rows: min-content min-content min-content min-content;
   justify-items: center;
-}
-
-@media screen and (min-width: 768px) {
-  .lead {
-
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .lead {
-    /* padding: 0 48px 0; */
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead {
-    /* padding: 0 148px 0; */
-  }
 }

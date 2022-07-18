@@ -1,22 +1,19 @@
 /* микс для отступов БЭМ-блока intro */
 .page__intro {
-  margin: 64px 16px;
+  margin-top: 64px;   /* отступ от предыдущего блока */
+  margin-bottom: 64px;   /* до следующего блока */
 }
 
 @media screen and (min-width: 768px) {
   .page__intro {
-    margin: 88px 24px;
+    margin-top: 88px;  /* отступ от предыдущего блока */
+    margin-bottom: 88px; /* до следующего блока */
   }
 }
 
 @media screen and (min-width: 1024px) {
   .page__intro {
-    margin: 92px auto 92px 48px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page__intro {
-    margin-left: 148px;
+    margin-top: 92px; /* отступ от предыдущего блока */
+    margin-bottom: 92px; /* до следующего блока */
   }
 }
