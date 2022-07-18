@@ -1,0 +1,31 @@
+.lead__subtitle {
+  margin: 0 0 40px 0; /* отступ снизу */
+  width: 100%;
+  padding: 0;
+
+  /* Сохраняем переносы строк как в index.html */
+  white-space: pre-line;
+
+  font-family: 'Inter';
+  color: #FFF;
+
+  font-weight: 400;
+  font-size: calc( (100vw / 20) - ((100vw - 320px)/50)); /* font-size: 16px; при ширине 320 и постепенно увеличится до 56px(примерно) */
+  line-height: calc( (100vw / 16) - ((100vw - 320px)/35)); /* line-height: 20px; при ширине 320 и постепенно увеличится до 36px(примерно) */
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    margin-bottom: 64px;
+  }
+}

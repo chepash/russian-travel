@@ -1,0 +1,37 @@
+.lead__caption {
+  padding: 0;
+  margin: 8px auto 0;
+  column-width: 100vw;
+  padding-left: 18px;
+
+  color: #FFF;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 768px) {
+  .lead__caption {
+    column-width: 976px;
+    margin: 8px auto 0;
+    padding-left: 24px;
+  }
+}
+
+/* нужно пораньше сделать переход чтобы отступ слева незаметно обнулился */
+@media screen and (min-width: 976px) {
+  .lead__caption {
+    column-width: 928px;
+    margin: 8px auto 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__caption {
+    column-width: 984px;
+  }
+}

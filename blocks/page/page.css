@@ -1,5 +1,6 @@
 .page {
-  background-color: #2A2C2F;
-  margin: 0; /* выше для экранов больше 1280px отцентрировали весь контент */
-  font-family: 'Inter', Arial, sans-serif;
+  min-width: 320px;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto; /* выравниваем по центру содержимое*/
 }

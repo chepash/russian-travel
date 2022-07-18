@@ -1,0 +1,26 @@
+.lead__title {
+  margin: 0 0 16px 0; /* отступ снизу */
+  padding: 0;
+
+  /* Сохраняем переносы строк как в index.html */
+  white-space: pre-line;
+
+  font-family: 'Inter';
+  color: #FFF;
+
+  font-weight: 900;
+  font-size: calc( 100vw / 8 ); /* 40px при ширине 320 и будет постепенно расти */
+  font-size: min(40px,);
+  line-height: calc( 100vw / 8 + 4px);  /* 44px при ширине 320 и будет постепенно расти */
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__title {
+    margin-bottom: 32px;
+
+    font-size: 96px;
+    line-height: 100px;
+  }
+}
+
