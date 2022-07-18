@@ -1,7 +1,10 @@
 .header__logo {
-   /* лого плавно увеличивается с 142/42 до 176/52 */
-   width: calc(142px + (100vw - 320px)/15);
-   height: calc(42px + (100vw - 320px)/60);
+  width: 142px;
+  height: 42px;
+
+   /* лого плавно увеличивается с 142/42 до 176/52 хотя возможно лишнее*/
+   /* width: calc(142px + (100vw - 320px)/15);
+   height: calc(42px + (100vw - 320px)/60); */
 }
 
 @media screen and (min-width: 768px) {

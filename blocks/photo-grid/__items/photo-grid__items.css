@@ -1,0 +1,35 @@
+.photo-grid__items {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, fit-content(200px)); */
+  row-gap: 12px;
+}
+
+
+/* лучше пораньше сделать гэп
+чтобы, при появлении второй колонки разу появился между ними gap */
+@media screen and (min-width: 600px) {
+  .photo-grid__items {
+    /* column-width: 352px; */
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(4, minmax(284px, 1fr));
+    gap: 16px;
+  }
+}
