@@ -15,7 +15,6 @@
 /* лучше картинку пораньше заменять, а то сильно бросается в глаза */
 @media screen and (min-width: 928px) {
   .lead__image {
-
     max-width: 928px;
     content: url(../../../images/lead-image_1024.jpg);
   }

@@ -17,6 +17,7 @@
   .intro__text {
     column-width: 976px;
     padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
