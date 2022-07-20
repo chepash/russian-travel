@@ -26,19 +26,22 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+/* Может это лишние медиа запросы, судя по чек-листу.
+Просто хотелось четко вывереных по пикселям размеров в ключевых разрешениях.
+А в промежутках пусть уже примерные быдут. */
+@media screen and (width: 768px) {
   .header {
     max-width: 720px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .header {
     max-width: 92%;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (width: 1024px) {
   .header {
     max-width: 928px;
   }

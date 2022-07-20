@@ -4,8 +4,7 @@
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
-
+  line-height: 1.63;
 }
 
 .place__paragraph:not(:first-of-type) {
@@ -15,7 +14,6 @@
 @media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
-    line-height: 163%;
   }
 }
 

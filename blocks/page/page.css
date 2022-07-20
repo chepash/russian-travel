@@ -1,4 +1,6 @@
 .page {
+  margin: 0;
+  padding: 0;
   min-width: 320px;
   box-sizing: border-box;
   /* margin: 0 auto; выравниваем по центру содержимое */

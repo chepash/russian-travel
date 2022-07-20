@@ -2,7 +2,6 @@
   margin: 40px 0 33px;
   padding: 0 16px;
 
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
@@ -33,7 +32,6 @@
 @media screen and (min-width: 1280px) {
   .intro__text {
     column-width: 984px;
-
   }
 }
 

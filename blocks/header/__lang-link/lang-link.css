@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .header__lang-link {
-  }
+.header__lang-link:hover {
+  transition: opacity 0.2s ease;
+  opacity: 0.8;
 }

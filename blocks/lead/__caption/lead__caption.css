@@ -17,7 +17,6 @@
   .lead__caption {
     /* небольшой трюк чтоб при увеличении ширины экрана фраза дальше картинки не уезжала */
     column-width: 976px;
-    margin: 8px auto 0;
     padding-left: 24px;
   }
 }
@@ -26,7 +25,6 @@
 @media screen and (min-width: 976px) {
   .lead__caption {
     column-width: 928px;
-    margin: 8px auto 0;
     padding: 0;
   }
 }
