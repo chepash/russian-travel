@@ -6,7 +6,10 @@
   white-space: pre-line;
 
   font-weight: 900;
-  font-size: calc( 100vw / 8 ); /* 40px при ширине 320 и будет постепенно расти */
+
+  /*Уж больно резко перепад размеров шрифтов делается
+  40px при ширине 320 и будет постепенно расти*/
+  font-size: calc( 100vw / 8 );
   line-height: 1.1;
   text-align: center;
 }

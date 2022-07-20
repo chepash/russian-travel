@@ -1,26 +1,10 @@
 .page {
   min-width: 320px;
   box-sizing: border-box;
-  margin: 0 auto; /* выравниваем по центру содержимое*/
-}
-
-
-@media screen and (min-width: 768px) {
-  .page {
-    min-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page {
-    min-width: 1024px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    width: 1280px;
-  }
+  /* margin: 0 auto; выравниваем по центру содержимое */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 

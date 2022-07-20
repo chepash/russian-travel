@@ -1,11 +1,57 @@
 .header {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 288px;
   display: grid;
 
-  /* грид: лого - большая пустота - Ru - отступ - En */
-  grid-template-columns: min-content auto min-content 18px min-content;
+  /* grid-template: лого - большая пустота - Ru - отступ - En */
+  grid-template-columns:min-content auto min-content 18px min-content;
   grid-template-rows: min-content;
   align-items: center;
 }
 
+/* приходится бороться с горизонтальным скролом в двух ключевых моментах 1024 и 1280.
+
+Подразумеваю что:
+"ширина видимой части" + "ширина скрола" = 1024(или 1280)
+Отступы от краёв видимой части будут отличаться от макета(скролл их немного съел)
+ну на то они и предусмотрены в макете. Правильно?
+Главно чтобы горизонтальный скролл не появился*/
+
+@media screen and (min-width: 321px) {
+  .header {
+    max-width: 95%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    max-width: 92%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .header {
+    max-width: 92%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+  }
+}

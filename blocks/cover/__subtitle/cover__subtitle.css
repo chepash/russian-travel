@@ -10,11 +10,6 @@
   white-space: pre-line;
 }
 
-@media screen and (min-width: 321px) {
-  .cover__subtitle {
-    align-self: stretch;
-  }
-}
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
@@ -23,6 +18,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
+
+    white-space: unset;
   }
 }
 
