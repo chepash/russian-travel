@@ -1,7 +1,6 @@
 .lead__caption {
   padding: 0;
   margin: 8px auto 0;
-  column-width: 100vw;
   padding-left: 18px;
 
   color: #FFF;
@@ -15,22 +14,12 @@
 
 @media screen and (min-width: 768px) {
   .lead__caption {
-    /* небольшой трюк чтоб при увеличении ширины экрана фраза дальше картинки не уезжала */
-    column-width: 976px;
     padding-left: 24px;
   }
 }
 
-/* нужно пораньше сделать переход чтобы отступ слева незаметно обнулился (1024-(2*24px)) */
-@media screen and (min-width: 976px) {
+@media screen and (min-width: 1024px) {
   .lead__caption {
-    column-width: 928px;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__caption {
-    column-width: 984px;
+    padding-left: 0;
   }
 }

@@ -9,7 +9,6 @@
 /* лучше картинку пораньше заменять, а то сильно бросается в глаза */
 @media screen and (min-width: 400px) {
   .lead__image {
-    max-width: 928px;
     content: url(../../../images/lead-image_768.jpg);
   }
 }
@@ -17,14 +16,12 @@
 /* лучше картинку пораньше заменять, а то сильно бросается в глаза */
 @media screen and (min-width: 928px) {
   .lead__image {
-    max-width: 928px;
     content: url(../../../images/lead-image_1024.jpg);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__image {
-    max-width: 984px;
     content: url(../../../images/lead-image_1280.jpg);
   }
 }
