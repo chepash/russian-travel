@@ -1,5 +1,5 @@
 .cover__subtitle {
-  margin: 0 16px 32px; /* отступ снизу */
+  margin: 16px 0 0 0; /* отступ только от врернего заголовка */
   padding: 0;
 
   font-weight: 400;
@@ -13,24 +13,12 @@
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
-    margin:0px 204px 115px;
+    margin: 32px 0 0 0;
+    max-width: 360px;
 
     font-size: 18px;
     line-height: 1.22;
 
-    /* пусть текст снова растягивается */
-    white-space: unset;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover__subtitle {
-    margin: 0 232px 195px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__subtitle {
-    margin: 0px 412px 245px;
+    white-space: unset; /* пусть текст снова растягивается */
   }
 }

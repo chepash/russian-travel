@@ -4,12 +4,9 @@
   padding: 0;
   width: 100%;
   max-width: 288px;
-  display: grid;
 
-  /* grid-template: лого - большая пустота - Ru - отступ - En */
-  grid-template-columns:min-content auto min-content 18px min-content;
-  grid-template-rows: min-content;
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* приходится бороться с горизонтальным скролом в двух ключевых моментах 1024 и 1280.

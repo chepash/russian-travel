@@ -9,12 +9,11 @@
   background-position: center;
 
   min-height: 200px;
-  height: fit-content;
-  /* max-width: 1184px; */
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   position: relative;
   z-index: 0;
@@ -37,23 +36,26 @@
   opacity: 0.8;
 }
 
-
-/* лучше картинку пораньше заменять, а то сильно бросается в глаза */
+/* чтобы не так резко по высоте менялась картинка */
 @media screen and (min-width: 400px) {
   .cover__overlay {
-    background-image: url(../../../images/cover-background_768.jpg);
+    min-height: 350px
   }
 }
 
-/* вобще блок и картинка расширяется по высоте за счет марджинов
- от текста. Высота почти точно расчитывается для блока с точностью до долей пикселя
-надеюсь можно не строго ставить height в точках переломах если сильных отклонений нет */
 
-/* лучше картинку пораньше заменять, а то сильно бросается в глаза*/
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    background-image: url(../../../images/cover-background_768.jpg);
+    min-height: 480px
+  }
+}
+
+
 @media screen and (min-width: 1024px) {
   .cover__overlay {
     background-image: url(../../../images/cover-background_1024.jpg);
-    height: 640px;
+    min-height: 640px;
   }
 }
 
@@ -61,8 +63,6 @@
 @media screen and (min-width: 1280px) {
   .cover__overlay {
     background-image: url(../../../images/cover-background_1280.jpg);
-    align-self: center;
-    width: 1184px;
-    height: 740px;
+    min-height: 740px;
   }
 }

@@ -1,9 +1,13 @@
 .page {
+  background-color: #2A2C2F;
   margin: 0;
   padding: 0;
-  min-width: 320px;
   box-sizing: border-box;
-  /* margin: 0 auto; выравниваем по центру содержимое */
+  min-width: 320px;
+
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFF;
+
   display: flex;
   flex-direction: column;
   align-items: center;
