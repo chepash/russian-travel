@@ -39,7 +39,7 @@
 /* чтобы не так резко по высоте менялась картинка */
 @media screen and (min-width: 400px) {
   .cover__overlay {
-    min-height: 350px
+    min-height: 350px;
   }
 }
 
@@ -47,7 +47,7 @@
 @media screen and (min-width: 768px) {
   .cover__overlay {
     background-image: url(../../../images/cover-background_768.jpg);
-    min-height: 480px
+    min-height: 480px;
   }
 }
 
