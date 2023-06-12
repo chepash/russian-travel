@@ -1,22 +1,19 @@
-# Проект: Путешествие по России
+# Project: Journey through Russia
 
-### Обзор
-* Интро
-* Какие технологии используются
+### Overview
+* Introduction
+* Technologies Used
 
+**Introduction**
 
-**Интро**
+* Here is a project about a journey through Russia, developed in 5 days (and nights).
+* It is the first attempt at implementing responsive web design.
+* You can simply download the entire project to your computer and open the index.html file in any popular web browser.
+* [Link to GitHub Pages](https://chepash.github.io/russian-travel/)
 
-* Здесь сделанный за 5 дней(и ночей) проект о путешествии по России.
-* Первая попытка реализации адаптивной верстки.
-* Можно просто скачать, весь проект себе на компьютер и открыть index.html в любом(популярном) интернет браузере.
-* [Ссылка на GitHub Pages](https://chepash.github.io/russian-travel/)
+**Technologies Used**
 
-
-**Какие технологии используются**
-
-* использование файловой структуры CSS Nested по методолгии БЭМ;
-* визуальные эфекты при работе с интерактивными элеменетами;
-* CSS grid;
-* CSS flex.
-
+* CSS file structure using the Nested methodology of BEM (Block Element Modifier).
+* Visual effects when interacting with elements.
+* CSS Grid.
+* CSS Flexbox.
