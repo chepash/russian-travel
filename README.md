@@ -17,3 +17,6 @@
 * Visual effects when interacting with elements.
 * CSS Grid.
 * CSS Flexbox.
+
+## Screenshots:
+<a href="https://postimg.cc/7ft2C81S" target="_blank"><img src="https://i.postimg.cc/7ft2C81S/travel-1.png" alt="travel-1"/></a> <a href="https://postimg.cc/yDJScQnt" target="_blank"><img src="https://i.postimg.cc/yDJScQnt/travel-2.png" alt="travel-2"/></a><br/><br/>
